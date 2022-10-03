@@ -86,4 +86,15 @@ rollbackPhases:
   provisionNodes: false
   serviceName: continuous-verification-example
   statefulSet: false
-templatized: false
+templatized: true
+userVariables:
+- type: TEXT
+  fixed: false
+  mandatory: false
+  name: verify_canary
+  value: 'yes'
+- type: TEXT
+  fixed: false
+  mandatory: false
+  name: metric_verification
+  value: Prometheus
