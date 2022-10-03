@@ -38,7 +38,7 @@ phases:
         includeInfraSelectors: true
         outputVars: ''
         publishAsVar: false
-        scriptString: echo ${app}
+        scriptString: echo ${workflow.name}
         scriptType: BASH
         sshKeyRefName: null
         sweepingOutputName: null
