@@ -35,6 +35,21 @@ phases:
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Verify
+    steps:
+    - type: PROMETHEUS
+      name: Prometheus
+      properties:
+        analysisServerConfigId: 1pRDsC8xSJuQ6ve3s6mz6Q
+        analysisTolerance: LOW
+        comparisonStrategy: COMPARE_WITH_CURRENT
+        customThresholdRefId: f2ba45760f2f4376aa974ddcbcf6181e
+        metric-thresholds: []
+        timeDuration: 5
+        timeSeriesToAnalyze:
+        - metricName: normal_call
+          metricType: INFRA
+          txnName: custom
+          url: io_harness_custom_metric_normal_call{kubernetes_pod_name="$hostName"}
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Wrap Up
