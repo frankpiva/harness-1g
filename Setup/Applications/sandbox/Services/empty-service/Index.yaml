@@ -2,5 +2,5 @@ harnessApiVersion: '1.0'
 type: SERVICE
 artifactType: DOCKER
 deploymentType: KUBERNETES
-description: delete when done testing
+description: used for testing user group permissions
 helmVersion: V2
