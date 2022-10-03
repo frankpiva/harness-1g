@@ -75,7 +75,7 @@ phases:
   computeProviderName: Harness AWS Sales fpiva-cluster
   daemonSet: false
   infraDefinitionName: dev-infra
-  name: next-phase
+  name: deploy
   phaseSteps:
   - type: K8S_PHASE_STEP
     name: Deploy
@@ -123,8 +123,8 @@ rollbackPhases:
   computeProviderName: Harness AWS Sales fpiva-cluster
   daemonSet: false
   infraDefinitionName: dev-infra
-  name: Rollback next-phase
-  phaseNameForRollback: next-phase
+  name: Rollback deploy
+  phaseNameForRollback: deploy
   phaseSteps:
   - type: K8S_PHASE_STEP
     name: Deploy
