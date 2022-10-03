@@ -1,0 +1,11 @@
+harnessApiVersion: '1.0'
+type: GIT
+authorEmailId: francisco.piva@harness.io
+authorName: Frank Piva
+commitMessage: '[sync] add changes from Harness manager'
+keyAuth: false
+password: gcpkms:github-pat-frankpiva
+providerType: GIT
+url: https://github.com/frankpiva
+urlType: ACCOUNT
+username: git
