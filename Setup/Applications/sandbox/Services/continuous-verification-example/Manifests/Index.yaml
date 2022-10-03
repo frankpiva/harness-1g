@@ -1,3 +1,10 @@
 harnessApiVersion: '1.0'
 type: APPLICATION_MANIFEST
-storeType: Local
+gitFileConfig:
+  branch: master
+  connectorName: github-account-fpiva
+  filePath: cvlab
+  repoName: admin_workloads
+  useBranch: true
+  useInlineServiceDefinition: false
+storeType: Remote
