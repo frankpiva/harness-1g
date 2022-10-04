@@ -2,7 +2,7 @@ harnessApiVersion: '1.0'
 type: APPLICATION_MANIFEST
 gitFileConfig:
   branch: master
-  connectorName: github-account-fpiva
+  connectorName: frankpiva
   filePath: cvlab
   repoName: admin_workloads
   useBranch: true
