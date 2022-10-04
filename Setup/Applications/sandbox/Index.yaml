@@ -2,5 +2,5 @@ harnessApiVersion: '1.0'
 type: APPLICATION
 branchName: main
 description: a non-prod application for experimenting
-gitConnector: github-repo-harness
+gitConnector: harness-1g
 isGitSyncEnabled: true
