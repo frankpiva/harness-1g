@@ -7,6 +7,6 @@ commitMessage: '[sync] add changes from Harness manager'
 keyAuth: false
 password: gcpkms:github-pat-frankpiva
 providerType: GIT
-url: https://github.com/frankpiva/harness
+url: https://github.com/frankpiva/harness-1g
 urlType: REPO
 username: git
