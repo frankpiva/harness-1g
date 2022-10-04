@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: GIT
+branch: master
+keyAuth: false
+password: gcpkms:github-pat-frankpiva
+providerType: GIT
+url: https://github.com/frankpiva/fundamentals-workloads.git
+urlType: REPO
+username: git
