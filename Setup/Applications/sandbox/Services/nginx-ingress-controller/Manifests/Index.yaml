@@ -5,5 +5,5 @@ helmChartConfig:
   connectorName: nginx-ingress-controller
 helmCommandFlag:
   valueMap:
-    TEMPLATE: --api-versions=networking.k8s.io/v1/Ingress
+    TEMPLATE: --debug
 storeType: HelmChartRepo
