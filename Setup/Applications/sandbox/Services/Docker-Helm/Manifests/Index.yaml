@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: APPLICATION_MANIFEST
+gitFileConfig:
+  branch: main
+  connectorName: kubernetes-ingress
+  filePath: deployments/helm-chart
+  useBranch: true
+  useInlineServiceDefinition: false
+storeType: HelmSourceRepo
