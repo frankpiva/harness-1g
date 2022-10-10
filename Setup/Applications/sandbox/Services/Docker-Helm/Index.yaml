@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+artifactFromManifest: false
+artifactType: DOCKER
+deploymentType: HELM
+description: tutorial from https://docs.harness.io/article/svso08ogpb-2-helm-services
+helmVersion: V2
