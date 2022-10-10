@@ -29,6 +29,19 @@ phases:
     steps:
     - type: HELM_DEPLOY
       name: Helm Deploy
+      properties:
+        connectionType: branch
+        gitFileConfig:
+          connectorId: RivJhwD7TsyYasL2aPPIsA
+          commitId: ''
+          branch: main
+          filePath: deployments/helm-chart
+          useBranch: true
+        helmReleaseNamePrefix: docker-helm
+        steadyStateTimeout: 10
+        templateUuid: null
+        templateVariables: null
+        templateVersion: null
     stepsInParallel: false
   - type: VERIFY_SERVICE
     name: Verify Service
