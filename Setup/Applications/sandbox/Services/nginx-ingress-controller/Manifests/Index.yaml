@@ -3,4 +3,7 @@ type: APPLICATION_MANIFEST
 helmChartConfig:
   chartName: nginx-ingress
   connectorName: nginx-ingress-controller
+helmCommandFlag:
+  valueMap:
+    TEMPLATE: --api-versions=networking.k8s.io/v1/Ingress
 storeType: HelmChartRepo
