@@ -35,7 +35,7 @@ phases:
           connectorId: RivJhwD7TsyYasL2aPPIsA
           commitId: ''
           branch: main
-          filePath: deployments/helm-chart
+          filePath: deployments/helm-chart/Chart.yaml
           useBranch: true
         helmReleaseNamePrefix: docker-helm
         steadyStateTimeout: 10
