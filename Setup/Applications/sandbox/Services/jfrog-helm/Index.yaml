@@ -3,4 +3,4 @@ type: SERVICE
 artifactType: DOCKER
 deploymentType: KUBERNETES
 description: simple helm service for testing JFrog Artifactory in Harness workflows
-helmVersion: V2
+helmVersion: V3
