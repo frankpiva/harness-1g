@@ -1,0 +1,6 @@
+harnessApiVersion: '1.0'
+type: APPLICATION_MANIFEST_VALUES_ENV_SERVICE_OVERRIDE
+customSourceConfig:
+  path: ./values-yaml
+  script: curl -u${secrets.getValue("username")}:${secrets.getValue("password")}my/values.yaml
+storeType: CUSTOM
